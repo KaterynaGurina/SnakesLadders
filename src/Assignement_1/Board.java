@@ -84,7 +84,7 @@ public class Board {
 		public void printBoard() {
 			System.out.println("------------------------------------------------------------------------------");
 			for (int i = 0; i<10; i++) {
-				System.out.println(Arrays.toString(board[i]).replace("],","|\n").replace(",","\t|"));//.replaceAll("[\\[\\]]", "|"));
+				System.out.println(Arrays.toString(board[i]).replace("],","|\n").replace(",","\t|")).replace("[\\[\\]]", "|"));
 				System.out.println("------------------------------------------------------------------------------");
 			}}
 
